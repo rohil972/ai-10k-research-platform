@@ -1,0 +1,213 @@
+{
+  "company": "BANK OF AMERICA CORP /DE/",
+  "ticker": "BAC",
+  "current_year": 2025,
+  "prior_year": 2024,
+  "filings": {
+    "current": {
+      "form": "10-K",
+      "reportDate": "2025-12-31",
+      "filingDate": "2026-02-25",
+      "accessionNumber": "0000070858-26-000157",
+      "primaryDocument": "bac-20251231.htm",
+      "cik": "0000070858"
+    },
+    "prior": {
+      "form": "10-K",
+      "reportDate": "2024-12-31",
+      "filingDate": "2025-02-25",
+      "accessionNumber": "0000070858-25-000139",
+      "primaryDocument": "bac-20241231.htm",
+      "cik": "0000070858"
+    }
+  },
+  "financial_summary": {
+    "status": "SEC companyfacts retrieved",
+    "current_year": 2025,
+    "prior_year": 2024,
+    "metrics": {
+      "revenue": {
+        "current": {
+          "value": 113097000000,
+          "unit": "USD",
+          "tag": "Revenues",
+          "end": "2025-12-31",
+          "filed": "2026-02-25"
+        },
+        "prior": {
+          "value": 101887000000,
+          "unit": "USD",
+          "tag": "Revenues",
+          "end": "2024-12-31",
+          "filed": "2025-02-25"
+        },
+        "yoy_growth_pct": 11.002384995141679
+      },
+      "net_income": {
+        "current": {
+          "value": 30509000000,
+          "unit": "USD",
+          "tag": "NetIncomeLoss",
+          "end": "2025-12-31",
+          "filed": "2026-02-25"
+        },
+        "prior": {
+          "value": 27132000000,
+          "unit": "USD",
+          "tag": "NetIncomeLoss",
+          "end": "2024-12-31",
+          "filed": "2025-02-25"
+        },
+        "yoy_growth_pct": 12.446557570396589
+      },
+      "diluted_eps": {
+        "current": {
+          "value": 3.81,
+          "unit": "USD/shares",
+          "tag": "EarningsPerShareDiluted",
+          "end": "2025-12-31",
+          "filed": "2026-02-25"
+        },
+        "prior": {
+          "value": 3.21,
+          "unit": "USD/shares",
+          "tag": "EarningsPerShareDiluted",
+          "end": "2024-12-31",
+          "filed": "2025-02-25"
+        },
+        "yoy_growth_pct": 18.691588785046733
+      },
+      "total_assets": {
+        "current": null,
+        "prior": null,
+        "yoy_growth_pct": null
+      },
+      "cash": {
+        "current": null,
+        "prior": null,
+        "yoy_growth_pct": null
+      }
+    },
+    "current_revenue_display": "113,097,000,000.00 USD (Revenues)",
+    "revenue_growth_pct_display": "11.00%",
+    "current_net_income_display": "30,509,000,000.00 USD (NetIncomeLoss)",
+    "current_eps_display": "3.81 USD/shares (EarningsPerShareDiluted)",
+    "limitations": [
+      "Standardized SEC facts may not map to bank-specific net interest income or segment disclosures.",
+      "Reconcile all metrics to the audited statements and the correct fiscal-year duration."
+    ]
+  },
+  "segment_revenue_table": [],
+  "risk_factors_ranked": [],
+  "mda_tone_analysis": {
+    "status": "not_available_in_sec_only_mode",
+    "note": "Tone classification requires AI or a separately implemented local text classifier."
+  },
+  "language_diff": {
+    "methodology": "Exact normalized three-word phrase frequency screen over the extracted risk-factor text; this is not semantic novelty detection.",
+    "top_added_phrases": [
+      {
+        "phrase": "the federal reserve",
+        "current_count": 20,
+        "prior_count": 17
+      },
+      {
+        "phrase": "information systems and",
+        "current_count": 9,
+        "prior_count": 6
+      },
+      {
+        "phrase": "and may result",
+        "current_count": 2,
+        "prior_count": 0
+      },
+      {
+        "phrase": "including bank and",
+        "current_count": 2,
+        "prior_count": 0
+      },
+      {
+        "phrase": "natural disasters widespread",
+        "current_count": 2,
+        "prior_count": 0
+      },
+      {
+        "phrase": "disasters widespread health",
+        "current_count": 2,
+        "prior_count": 0
+      },
+      {
+        "phrase": "our businesses and",
+        "current_count": 8,
+        "prior_count": 6
+      },
+      {
+        "phrase": "events and other",
+        "current_count": 2,
+        "prior_count": 0
+      },
+      {
+        "phrase": "over the past",
+        "current_count": 2,
+        "prior_count": 0
+      },
+      {
+        "phrase": "the past several",
+        "current_count": 2,
+        "prior_count": 0
+      }
+    ],
+    "top_removed_phrases": [
+      {
+        "phrase": "machine learning and",
+        "current_count": 0,
+        "prior_count": 4
+      },
+      {
+        "phrase": "learning and generative",
+        "current_count": 0,
+        "prior_count": 4
+      },
+      {
+        "phrase": "the russia ukraine",
+        "current_count": 0,
+        "prior_count": 3
+      },
+      {
+        "phrase": "russia ukraine conflict",
+        "current_count": 0,
+        "prior_count": 3
+      },
+      {
+        "phrase": "ukraine conflict and",
+        "current_count": 0,
+        "prior_count": 3
+      }
+    ]
+  },
+  "accounting_policy_changes": {
+    "status": "not_analyzed_in_sec_only_mode",
+    "note": "Review the filing notes manually."
+  },
+  "off_balance_sheet_items": {
+    "status": "not_analyzed_in_sec_only_mode",
+    "note": "Review the filing notes and commitments disclosures manually."
+  },
+  "auditor_changes": {
+    "status": "not_analyzed_in_sec_only_mode",
+    "note": "Review the auditor report excerpts manually."
+  },
+  "analyst_questions_to_ask_management": [],
+  "evidence_log": [
+    {
+      "source": "SEC EDGAR",
+      "status": "SEC filings and company facts retrieved where available; AI analysis skipped by SEC_ONLY_MODE."
+    }
+  ],
+  "limitations": [
+    "Section extraction is heuristic and may miss or misidentify filing sections.",
+    "Segment revenue, auditor, commitments and VIE details require manual reconciliation.",
+    "SEC-only mode was enabled. No OpenAI API call was made. Financial facts and the basic phrase-frequency comparison are available; AI risk classifications, tone analysis, accounting interpretation, and management questions were skipped."
+  ],
+  "analysis_mode": "SEC-only mode (no OpenAI API calls)"
+}
