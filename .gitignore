@@ -7,3 +7,8 @@ venv/
 outputs/
 *.xlsx
 .DS_Store
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
